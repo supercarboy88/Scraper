@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <title>NPR.ORG Scrapper</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anonymous+Pro|Fredericka+the+Great|Galada|Orbitron:500|PT+Mono|Roboto+Mono|Ubuntu+Mono:700|VT323" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <a class="navbar-brand main-logo" href="/">NPR.ORG Scrapper</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="/saved">Saved Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link scrape-new">Scrap Articles</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link clear">Clear Articles</a>
+                </li>
+                </ul>
+            </div>
+    </nav>
+
+    <div class="container-fluid article-container">
+ 
+        <div class="alert text-center">
+          <h4>No New Articles.</h4>
+        </div>
+        <div class="card">
+          <div class="card-body text-center">
+            <h4 class="scrape-new">
+              <a class="scrape-new">Scrape New Articles</a>
+            </h4>
+            <h4>
+              <a class="saved" href="/saved">Go to Saved Articles</a>
+            </h4>
+          </div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootbox.js/4.4.0/bootbox.min.js"></script>
+    <script src="/javascript/index.js"></script>
+
+</body>
+
+</html>

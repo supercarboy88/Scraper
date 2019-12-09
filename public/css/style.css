@@ -1,0 +1,96 @@
+p{
+    margin-bottom: 2%;
+    padding: 1%;
+    background-color: rgb(235, 235, 235);
+}
+
+.nav-link{
+    cursor: pointer; 
+}
+
+a.scrape-new{
+    cursor: pointer;  
+}
+
+#scrape-new{
+    color: #7e8d9c;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+a:not([href]):not([tabindex]) {
+    color: inherit;
+	text-decoration: none;
+	clear: both;
+}
+
+.btn{
+	margin-top: -3%;
+	/* float: left; */
+}
+
+.card{
+	margin: 2%;
+	margin-top: 5%;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.main-logo{
+	font-family: 'Ubuntu Mono', monospace;
+	font-weight: 700;
+	font-size: 30px;
+	color: #35393d;
+}
+
+.card-body{
+	font-family: 'Roboto Mono', monospace;
+}
+
+#navbarNav{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.alert{
+	font-family: 'Roboto Mono', monospace;
+	margin-top: 5%;
+	margin-bottom: -2%;
+}
+
+a:not([href]):not([tabindex]) {
+	text-decoration: none;
+	color: #6c757d;
+    clear: both;
+}
+
+a:not([href]):not([tabindex]):hover {
+	text-decoration: none;
+	color: #35393d;
+    clear: both;
+}
+
+.article-link{
+	font-family: 'Ubuntu Mono', monospace;
+	color: #6c757d;
+}
+
+.article-link:hover{
+	color: #35393d;
+}
+
+.go-home{
+	color: #6c757d;
+}
+
+.go-home:hover{
+	color: #35393d;
+}
+
+a{
+	color: #6c757d;
+}
+
+a:hover{
+	color: #35393d;
+}
